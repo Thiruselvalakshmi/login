@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Copperplate Gothic Light;
+}
+body {
+  background: linear-gradient(to bottom right, #88d5ecb6 0%, #e7adeccb 90%);
+  height: 100vh;
+}
+pre {
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(226, 43, 165);
+}
+form {
+  box-sizing: border-box;
+  border: 5px outset rgb(191, 233, 39);
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: rgb(208, 235, 235);
+}
+
+.items input,
+.items select {
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #666;
+}
+.items .s1 {
+  color: rgb(246, 250, 11);
+  background-color: rgb(201, 51, 168);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
